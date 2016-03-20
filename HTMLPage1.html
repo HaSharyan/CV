@@ -12,7 +12,7 @@
         <p>Birth 29th of April 1995 </p>
         <address> my home address </address>
         <address>Tel:<a href="tel:+97410001122">+37410001122</a></address>
-        <address>Mob: <a href="+37493691657">+37493691657</a></address>
+        <address>Mob: <a href="tel:+37493691657">+37493691657</a></address>
         <address>Email: <a href="mailto:haik2904@mail.ru">haik2904@mail.ru</a></address>       
     </header>
     <hr />
@@ -89,11 +89,11 @@
     <form name="contact">
         <fieldset>
             <legend>Your contacts</legend>
-            <p>Name: <input type="text" name="name" placeholder="Type your name"> </p>
-            <p>E-mail <input type="email" name="email" placeholder="Enter your email"/></p>
+            <p>Name: <input type="text" name="name" placeholder="Type your name" title="Name" required> </p>
+            <p>E-mail <input type="email" name="email" placeholder="Enter your email" title="Email" required/></p>
             <p>Write a comment <br />
-            <textarea placeholder="Write a comment" rows="6" cols="100" ></textarea></p>
-            <input type="button" value="Send!" />
+            <textarea name="Comment" placeholder="Write a comment" rows="6" cols="100" title="Comment" required ></textarea></p>
+            <input type="button" name="Button" value="Send!" title="Send" />
             
         </fieldset>
     </form>

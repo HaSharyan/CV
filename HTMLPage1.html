@@ -13,7 +13,7 @@
         <address> my home address </address>
         <address>Tel:<a href="tel:+97410001122">+37410001122</a></address>
         <address>Mob: <a href="tel:+37493691657">+37493691657</a></address>
-        <address>Email: <a href="mailto:haik2904@mail.ru">haik2904@mail.ru</a></address>       
+        <address>Email: <a href="mailto:haik2904@mail.ru" target="_blank">haik2904@mail.ru</a></address>       
     </header>
     <hr />
 
@@ -86,14 +86,14 @@
     </aside>
 
     <h3>Contact</h3>
-    <form name="contact">
+    <form name="contact" method="post">
         <fieldset>
             <legend>Your contacts</legend>
-            <p>Name: <input type="text" name="name" placeholder="Type your name" title="Name" required> </p>
+            <p>Name: <input type="text" name="name"  required placeholder="Type your name" title="Name" > </p>
             <p>E-mail <input type="email" name="email" placeholder="Enter your email" title="Email" required/></p>
             <p>Write a comment <br />
             <textarea name="Comment" placeholder="Write a comment" rows="6" cols="100" title="Comment" required ></textarea></p>
-            <input type="button" name="Button" value="Send!" title="Send" />
+            <input type="submit" name="submit" value="Send!" title="Send" />
             
         </fieldset>
     </form>

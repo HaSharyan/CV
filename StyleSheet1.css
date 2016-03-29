@@ -1,0 +1,23 @@
+﻿
+header{
+    background-color: aliceblue
+}
+header h1 {
+    text-align:center;
+    color:blue;
+    font-size: 60px;
+    background-color:turquoise;
+}
+header img {
+    float: left;
+    max-width: 200px;
+    height:auto;
+    margin-right: 30px;
+}
+.info {
+       display:block;
+       text-align:left;
+}
+header h2, p {
+    text-decoration: underline;
+}

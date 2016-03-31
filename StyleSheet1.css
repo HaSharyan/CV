@@ -1,15 +1,18 @@
-﻿
+﻿body {
+    background-color: aliceblue;
+    padding: 0 60px;
+}
 header{
     background-color: aliceblue
 }
 header h1 {
     text-align:center;
-    color:blue;
+    color: lightgray;
     font-size: 60px;
-    background-color:turquoise;
+    background-color:darkgray;
 }
 header img {
-    float: left;
+    float: right;
     max-width: 200px;
     height:auto;
     margin-right: 30px;
@@ -18,6 +21,33 @@ header img {
        display:block;
        text-align:left;
 }
-header h2, p {
+header  h2, header  p {
     text-decoration: underline;
+}
+.all {
+    position: relative;
+}
+.skills {
+    position: relative;
+    padding:10px;
+    margin:10px 250px 10px 150px;
+    float: left;
+}
+h3 {
+    text-decoration:underline;
+    font-style:oblique;
+}
+.education {
+    position: relative;
+    text-align:  left;
+    float: left;
+    margin: 10px 150px 150px 10px ;
+}
+
+.army{
+
+}
+
+#information>p{
+    font-family: Torhok, Fantasy;
 }

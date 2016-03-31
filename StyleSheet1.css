@@ -44,10 +44,45 @@ h3 {
     margin: 10px 150px 150px 10px ;
 }
 
-.army{
-
+.army {
+    position:relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-top: -50px;
 }
 
+.army h3{
+    float:left;
+    margin: 0 10px;
+}
+
+.army p{    
+    border-left: 1px solid black;
+    float:left;
+    margin: 0 10px;
+    padding: 4px;
+}
+
+.army h3::after{
+    content: "      -";
+}
+
+abbr {
+    background-color: rgba(255, 255, 0, 0.4);
+}
+
+#information {
+    border: 5px inset lightgray;
+    border-radius: 25px;
+    padding: 25px;
+    padding-top: 0;
+    text-align:justify;
+}
+
+#information > h2 {
+    text-align:center;
+}
 #information>p{
-    font-family: Torhok, Fantasy;
+    font-family: Arial;
 }

@@ -29,7 +29,7 @@ header  h2, header  p {
 }
 .skills {
     position: relative;
-    padding:10px;
+    padding-top:10px;
     margin:10px 250px 10px 150px;
     float: left;
 }
@@ -41,7 +41,8 @@ h3 {
     position: relative;
     text-align:  left;
     float: left;
-    margin: 10px 150px 150px 10px ;
+    margin: 10px 150px 150px 10px;
+    padding-top:10px;
 }
 
 .army {
@@ -85,4 +86,79 @@ abbr {
 }
 #information>p{
     font-family: Arial;
+}
+
+.contact {
+    margin-left:150px;
+}
+
+fieldset{
+    border:1px   groove  black;
+    width:800px;
+    height:auto;
+}
+
+legend{
+    outline: 1px   groove black;
+}
+
+input[type=text]{
+    width: 300px;
+    height: 20px;
+    border-radius:5px;
+    margin-left:13px;   
+}
+input[type=text]:focus {
+    outline: none;
+    background-color: lightblue;
+    color: white;
+}
+
+input[type=email]{
+    width:300px;
+    height: 20px;
+    border-radius:5px;
+    margin-left:8px;
+}
+
+input[type=email]:focus {
+    outline: none;
+    background-color: lightblue;
+    color: white;
+}
+
+textarea{
+    border-radius:10px;
+    padding:3px;
+    text-align:justify;
+    margin-top:5px;
+}
+
+textarea:focus {
+    outline: none;
+    background-color: lightblue;
+    color: white;
+}
+
+.submit{
+    background-color: #45a049;
+    color: black;
+    height: 30px;
+    width: 200px;
+    margin: -20px 0 30px 30px;
+    font-size: 20px;
+    border: 3px outset #45a049;
+    border-radius: 7px;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    margin-top: -8px;
+    text-align: center;
+    background: darkgray;
 }

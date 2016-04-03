@@ -107,22 +107,17 @@
         </div>
     </div>
 
-        <h3 class="contact">Contact</h3>
+        <h3>Contact</h3>
         <form name="contact" method="post">
             <fieldset>
                 <legend>Your contacts</legend>
                 <p>Name: <input type="text" name="name" required placeholder="Type your name" title="Name"> </p>
-                <p>E-mail: <input type="email" name="email" placeholder="Enter your email" title="Email" required /></p>
+                <p>E-mail <input type="email" name="email" placeholder="Enter your email" title="Email" required /></p>
                 <p>
                     Write a comment <br />
                     <textarea name="Comment" placeholder="Write a comment" rows="6" cols="100" title="Comment" required></textarea>
                 </p>
-
-                <input type="submit" name="submit" value="Send!" title="Send" class="submit" />
-                <br />
-
-                <a href="https://www.facebook.com/haik.sharyan" target="_blank"><img src="fb.jpg" alt="Facebook logo" title="My facebook page" class="logo" /></a>
-                <a href="https://github.com/HaikSharyan" target="_blank"><img src="github.png" alt="Github logo" title="My github page" class="logo" /></a>
+                <input type="submit" name="submit" value="Send!" title="Send" />
 
             </fieldset>
         </form>
